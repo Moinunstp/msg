@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Gouri Enterprises & Solar Energy Website </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="favicons\fevi.jpg">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="css/css-bootstrap.min.css">
+        <link rel="stylesheet" href="css/css-animate.min.css">
+        <link rel="stylesheet" href="css/css-magnific-popup.css">
+        <link rel="stylesheet" href="css/css-all.min.css">
+        <link rel="stylesheet" href="css/css-dripicons.css">
+        <link rel="stylesheet" href="css/css-slick.css">
+        <link rel="stylesheet" href="css/css-meanmenu.css">        
+        <link rel="stylesheet" href="css/css-swiper.min.css">
+        <link rel="stylesheet" href="css/css-default.css">
+        <link rel="stylesheet" href="css/css-style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/css-responsive.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+       
+        .contact-header {
+            background: linear-gradient(to right, #007bff, #00b4d8);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        }
+        .contact-header h1 {
+            font-weight: bold;
+        }
+        .contact-header p {
+            font-size: 20px;
+        }
+        .contact-section {
+            padding: 60px 20px;
+        }
+        .contact-card {
+            background: white;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .contact-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+        .contact-card h3 {
+            color: #007bff;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .contact-info i {
+            font-size: 20px;
+            color: #007bff;
+            margin-right: 15px;
+        }
+        .contact-info p {
+            font-size: 15px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .contact-header h1 {
+                font-size: 40px;
+            }
+            .contact-header p {
+                font-size: 25px;
+            }
+            .contact-card {
+                padding: 20px;
+            }
+            .contact-card h3 {
+                font-size: 25px;
+            }
+            .contact-info p {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .contact-header h1 {
+                font-size: 30px;
+            }
+            .contact-header p {
+                font-size: 15px;
+            }
+            .contact-card {
+                padding: 15px;
+            }
+            .contact-card h3 {
+                font-size: 25px;
+            }
+            .contact-info p {
+                font-size: 15px;
+            }
+        }
+
+        .faq-section {
+      margin: 30px 0;
+     
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .faq-section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    .accordion {
+      cursor: pointer;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      outline: none;
+      background-color: dark;
+      color: #007bff;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .accordion.active {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    .panel {
+      padding: 0 15px;
+      display: none;
+      overflow: hidden;
+      font-size: 1rem;
+      color: #555;
+      margin-top: 5px;
+    }
+
+    .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:130px;
+    right:30px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    transition: transform 0.3s ease;
+    }
+    .my-float{
+        margin-top:16px;
+        color: white;
+    }
+    .float:hover{
+        transform: scale(1.2);
+    }
+
+     .faq-containr {
+      max-width: 100%;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .faq-header {
+      background: #1aa3ff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .faq-search {
+      padding: 25px;
+      background: white;
+    }
+    .faq-search input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 20px;
+    }
+    .faq-item {
+      border-bottom: 1px solid #e2e2e2;
+    }
+    .faq-question {
+      padding: 15px 20px;
+      cursor: pointer;
+      position: relative;
+      font-size: 20px;
+      color: black;
+      transition: background 0.3s;
+    }
+    .faq-question:hover {
+      background: white;
+    }
+    .faq-question::after {
+      content: '\002B'; /* Plus sign */
+      font-size: 24px;
+      position: absolute;
+      right: 0px;
+      transition: transform 0.3s;
+    }
+    .faq-question.active::after {
+      transform: rotate(45deg);
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      background: #fff;
+      padding: 0 20px;
+    }
+    .faq-answer p {
+      padding: 15px 0;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      .faq-question {
+        font-size: 16px;
+        padding: 12px 15px;
+      }
+      .faq-answer p {
+        font-size: 16px;
+        color: black;
+      }
+      .faq-header {
+        font-size: 20px;
+        padding: 15px;
+      }
+    }
+    </style>
+    </head>
+    <body  style="background: #f3f7fe;">
+                 <!-- header -->
+        <header class="header-area header-three">  
+           <div class="header-top second-header d-none d-md-block">
+                <div class="container">
+                    <div class="row align-items-center"> 
+                         <div class="col-lg-8 col-md-8 d-none d-md-block">
+                             <div class="header-cta">
+                                <ul>      
+                                     <li><a href="#index.html">Renewable energy is set to contribute 25% to the world's total power generation.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 text-right d-none d-md-block">
+                            <div class="header-social">
+                                <span>
+                                    <a href="https://www.facebook.com/profile.php?id=100090305406857&mibextid=ZbWKwL" title="Facebook"><i class="fa-brands fa-square-facebook fa-lg" id="fc"></i></a>
+
+                                    <a href="https://www.instagram.com/gouri_enterprises_solar_092?igsh=MXhwc3Rya2M1cm1hMA==&utm_source=ig_contact_invite" title="instagram"><i class="fa-brands fa-square-instagram fa-lg" id="ic"></i></a>  
+
+                                    <a href="" title="LinkedIn"><i class="fa-brands fa-linkedin fa-lg" id="lc"></i></a>
+
+                                    <a href="https://youtube.com/@gouri-enterprises-solar?si=UPV0eE8SFxdSttJI" title="youtube"><i class="fa-brands fa-youtube fa-lg" id="yc"></i></a>
+                                   </span>                    
+                                   <!--  /social media icon redux -->                               
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>      
+            <div class="header-mid d-none d-md-block pt-25 pb-25 sm">
+                <div class="container">
+                    <div class="row align-items-center">                                              
+                        <div class="col-lg-2 col-md-12 d-none d-md-block">
+                            <div class="logo">
+                                <a href="index.html"><img src="images\logo-logo.jpg" height="70px" width="70px" alt="logo"  style="border-radius: 50%;"></a>
+                            </div>
+                        </div>
+                         <div class="col-lg-10 col-md-10 text-right d-none d-lg-block">
+                             <div class="header-cta">
+                                <ul>   
+                                     <li>
+                                       <div class="call-box">
+                                            <div class="icon">
+                                               <i class="fal fa-phone-alt"></i>
+                                            </div>
+                                           <div class="text">
+                                               <span style="color:white;">Call Now:</span>
+                                                <strong style="color:white;">+91 946 095-2764</strong>                                               
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                       <div class="call-box">
+                                            <div class="icon">
+                                                <i class="fal fa-envelope"></i>
+                                            </div>
+                                           <div class="text">
+                                                <span style="color:white;">Email Now:</span>
+                                                <strong style="color:white;">msgouri417@gmail.com</strong>
+                                               
+                                            </div>
+                                        </div>
+                                    </li>                                   
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+              <div id="header-sticky" class="menu-area sm">
+                <div class="container">
+                    <div class="second-menu">
+                        <div class="row align-items-center">
+                        <div class="col-lg-2 col-md-12  d-lg-none d-x-none">
+                            <div class="">
+                                <a href="index.html"><img src="images/logo-logo.jpg" height="60px" width="60px" alt="logo"></a>
+                            </div>
+                        </div>
+                           <div class="col-xl-11 col-lg-10">
+                              
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="has-sub">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li><a href="about.html">About Us</a></li>
+                                             <li class="has-sub"> 
+                                              <a href="single-service.html">Services</a>
+                                            </li>
+                                            <li class="has-sub"><a href="#">Pages</a>
+                                                <ul>
+                                                    <li><a href="gallary.html">Gallary</a></li>
+                                                    <li><a href="product.html">Products</a></li>
+                                                    <li><a href="project.html">Projects</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact Us</a></li>                                           
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>   
+                             <div class="col-xl-1 col-lg-2 text-right d-none d-lg-block">
+                                 
+                                <a href="#" class="menu-tigger"><i class="fal fa-search"></i></a>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile-menu"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header-end -->
+         <!-- offcanvas-area -->
+                <div class="offcanvas-menu">
+                <span class="menu-close"><i class="fas fa-times"></i></span>
+              <form role="search" method="get" id="searchform" class="searchform" action="#index.html">
+                                <input type="text" name="s" id="search" placeholder="Search">
+                                <button><i class="fa fa-search"></i></button>
+                            </form>
+
+                    
+                    <div id="cssmenu3" class="menu-one-page-menu-container">
+                        <ul class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Home</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">About Us</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="single-service.html">Services</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="gallary.html">Gallary</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="product.html">Products</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="project.html">Projects</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>  
+                    
+                    <div id="cssmenu2" class="menu-one-page-menu-container">
+                        <ul id="menu-one-page-menu-12" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span>+91 946 095-2764</span></a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#howitwork"><span>msgouri@gmail.com</span></a></li>
+                        </ul>
+                    </div>                
+            </div>
+            <div class="offcanvas-overly"></div>
+                 <!-- offcanvas-end -->
+
+                 <!-- Contact -->
+                        <!-- Header Section -->
+    <div  class="section-title center-align mb-50 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+    <div class="contact-header">
+        <h1 style="color:white; margin-top: 10px;">Contact Us</h1>
+        <p>Your Trusted Partner in Renewable Energy Solutions</p>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row justify-content-center gy-4">
+                <!-- Address Card -->
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h3>Our Address</h3>
+                        <div class="contact-info">
+                            <p><i class="bi bi-geo-alt-fill"></i>Raika Bagh, Opposite Senior School, Padu Kalan Road Rian Badi, District-Nagaur,Rajasthan,India</p>
+                            </div>
+                    </div>
+                </div>
+                <!-- Phone Card -->
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h3>Call Us</h3>
+                        <div class="contact-info">
+                            <p><i class="bi bi-telephone-fill"></i>+91-9460952764 <br>&nbsp;&nbsp;&nbsp; +91-7976552285 <br>&nbsp;&nbsp;&nbsp; +91-9887503896</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Email Card -->
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h3>Email Us</h3>
+                        <div class="contact-info">
+                            <p><i class="bi bi-envelope-fill"></i>your-email@example.com</p>
+                            <p><i class="bi bi-envelope-fill"></i>your-email@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center gy-4 mt-4">
+                <!-- Website Card -->
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h3>Our Facebook Page</h3>
+                        <div class="contact-info">
+                            <p><i class="bi bi-facebook"></i><a href="https://www.facebook.com/profile.php?id=100090305406857&mibextid=ZbWKwL" target="_blank">Gouri Enterprises & Solar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- YouTube Card -->
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h3>Our YouTube Channel</h3>
+                        <div class="contact-info">
+                            <p><i class="bi bi-youtube"></i><a href="https://youtube.com/@gouri-enterprises-solar?si=UPV0eE8SFxdSttJI" target="_blank">Gouri Enterprises & Solar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Instagram Card -->
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h3>Our Instagram Page</h3>
+                        <div class="contact-info">
+                            <p><i class="bi bi-instagram"></i><a href="https://www.instagram.com/gouri_enterprises_solar_092?igsh=MXhwc3Rya2M1cm1hMA==&utm_source=ig_contact_invite" target="_blank">Gouri Enterprises & Solar</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <!-- Advance Faq 1 -->
+        <div  class="section-title center-align mb-50 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+        <div class="faq-containr">
+    <div class="faq-header">
+      <h2 style="color:#fff;">Advanced Frequently Asked Questions - Solar Solutions</h2>
+    </div>
+    <div class="faq-search">
+      <input type="text" id="faqSearch" placeholder="Search FAQs..." />
+    </div>
+    <div id="faqList">
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <div class="faq-question">1. Solar panel lagwane ka process kya hai?</div>
+        <div class="faq-answer">
+          <p>Site survey, design, installation, commissioning aur testing ke steps follow kiye jate hain.
+          Solar panel lagwane ka process:  
+
+1️⃣ Survey & Planning – Location aur load analysis.  
+2️⃣ Subsidy & Documentation – Eligibility check aur apply.  
+3️⃣ Installation – Panel, inverter aur wiring setup.  
+4️⃣ Net Metering – Bijli vibhag se approval (On-grid ke liye).  
+5️⃣ Activation & Handover – System start karna aur guidance dena.  
+
+🔥 Free electricity + Subsidy ka fayda! Contact karein 📞</p>
+        </div>
+      </div>
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <div class="faq-question">2. Kya solar panels rainy season me effective hote hain?</div>
+        <div class="faq-answer">
+          <p>
+          Haan, solar panels rainy season me bhi kaam karte hain, lekin efficiency 20-50% tak kam ho sakti hai due to clouds & rain. Fir bhi, diffused sunlight se power generate hoti hai, aur net metering ya battery backup se bijli ki problem nahi hoti. ⚡🌦</p>
+        </div>
+      </div>
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <div class="faq-question">3. Government subsidy kaise apply karein?</div>
+        <div class="faq-answer">
+          <p>Gouri Enterprises & Solar aapke liye solar water pump aur rooftop solar par subsidy lene me poori madad karega. ✅ Hum aapko sarkari yojnao ki jaankari, documents ki madad aur apply karne ki process sikhayenge, taki aap kam kharche me apna solar system lagwa sakein. 🌞⚡
+
+🚜 Kisano ke liye – Solar water pump subsidy se bijli ka bill khatam aur sichai asaan!
+🏡 Ghar ke liye – Rooftop solar subsidy se bijli free aur kamayi bhi ho sakti hai!
+
+Agar aap bhi solar system lagwana chahte hain aur subsidy lena chahte hain, to humse turant sampark karein! 📞💡</p>
+        </div>
+      </div>
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <div class="faq-question">4. Solar panel maintenance kaise karein?</div>
+        <div class="faq-answer">
+          <p>Regular cleaning, inspection aur performance checks se panels ki efficiency barkarar rakhi jati hai.
+1️⃣ Har 1-2 mahine me saaf karein (dhool-mitti hatayein).  
+2️⃣ Shadow check karein (ped/building ki chhaya na ho).  
+3️⃣ Wiring & inverter inspect karein (6 mahine me ek baar).  
+4️⃣ Net meter & generation monitor karein.  
+5️⃣ 1-2 saal me expert se full check-up karwayein.  
+
+✅ Proper maintenance se zyada power aur long life milegi! ⚡🌞</p>
+        </div>
+      </div>
+      <!-- FAQ Item 5 -->
+      <div class="faq-item">
+        <div class="faq-question">5. Kitne kW ka solar system mere liye sahi hai?</div>
+        <div class="faq-answer">
+          <p>Aapke energy consumption, available space aur budget ke hisab se customized system design kiya jata hai.And 
+          Aapke liye solar system ka size aapke daily electricity consumption par depend karta hai. 1 kW system 3-4 units per day produce karta hai. 
+
+Agar aapki monthly consumption 300-400 units hai, to 3-4 kW ka system sahi rahega. Aapko exact size ke liye survey karwana hoga.</p>
+          </div>
+      </div>
+      <!-- FAQ Item 6 -->
+      <div class="faq-item">
+        <div class="faq-question">6. Installation me kitna time lagta hai?</div>
+        <div class="faq-answer">
+          <p>Typically 1 se 3 din, site ke size aur configuration par depend karta hai.Solar panel installation me 2-3 din lagte hain, lekin net metering approval aur documentation process me 10-15 din tak lag sakte hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 7 -->
+      <div class="faq-item">
+        <div class="faq-question">7. Kya solar panels ka lifespan hota hai?</div>
+        <div class="faq-answer">
+          <p>Haan, aam taur par 25-30 saal tak chal sakte hain.Haan, solar panels ka lifespan 25-30 saal hota hai. Uske baad bhi panels kam efficiency se kaam karte hain, lekin proper maintenance se unka life aur badh sakta hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 8 -->
+      <div class="faq-item">
+        <div class="faq-question">8. Warranty details kya hain?</div>
+        <div class="faq-answer">
+          <p>Product warranty 10 saal aur performance guarantee 25 saal tak available hai.Solar panels ki warranty aam taur par 10-25 saal hoti hai. Isme performance warranty (efficiency 80% tak guarantee) aur product warranty (manufacturing defects) shamil hoti hai. Inverter ki warranty usually 5-10 saal hoti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 9 -->
+      <div class="faq-item">
+        <div class="faq-question">9. Solar energy investment ka return kitna hai?</div>
+        <div class="faq-answer">
+          <p>Solar energy investment ka return 5-6 saal me mil jata hai, aur uske baad 25+ saal tak free electricity ka fayda hota hai. ROI 15-25% per year hota hai, jo FD aur other investments se better hai. Net metering se extra bijli bechkar aur bhi kama sakte hain!</p>
+        </div>
+      </div>
+      <!-- FAQ Item 10 -->
+      <div class="faq-item">
+        <div class="faq-question">10. Purane electrical system ke saath integration possible hai?</div>
+        <div class="faq-answer">
+          <p>Haan, purane electrical system ke saath solar system integration possible hai. On-grid system mein aap apne existing grid connection ke saath solar power use kar sakte hain, aur off-grid system mein battery backup ke zariye apne purane setup ko integrate kar sakte hain. Integration ke liye electrician aur solar expert se consultation zaroori hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 11 -->
+      <div class="faq-item">
+        <div class="faq-question">11. Financing options kya available hain?</div>
+        <div class="faq-answer">
+          <p>Flexible financing, loans aur installment plans offer kiye jate hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 12 -->
+      <div class="faq-item">
+        <div class="faq-question">12. Solar system ke liye ideal orientation kya hai?</div>
+        <div class="faq-answer">
+          <p>South-facing panels maximum sun exposure ke liye best hote hain.Solar system ke liye ideal orientation south-facing hoti hai, taaki maximum sunlight mil sake. Angle 15-30° ke beech hona chahiye, jo aapki location ke latitude par depend karta hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 13 -->
+      <div class="faq-item">
+        <div class="faq-question">13. Solar panels ke kitne types hote hain?</div>
+        <div class="faq-answer">
+          <p>Monocrystalline, polycrystalline, aur thin-film panels commonly use hote hain.
+1️⃣ Monocrystalline – High efficiency, long lifespan.  
+2️⃣ Polycrystalline – Slightly less efficient, cost-effective.  
+3️⃣ Thin-film – Lightweight, flexible, but less efficient.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 14 -->
+      <div class="faq-item">
+        <div class="faq-question">14. Aapke solar panels ki efficiency kitni hai?</div>
+        <div class="faq-answer">
+          <p>Efficiency typically 15-20% ke beech hoti hai, lekin (monocrystalline, polycrystalline) model ke hisab se vary kar sakti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 15 -->
+      <div class="faq-item">
+        <div class="faq-question">15. Installation ke baad monitoring system provide hota hai?</div>
+        <div class="faq-answer">
+          <p>Haan, remote monitoring systems se performance track ki jati hai.jisme aap solar panel ki performance aur generation ko mobile app ya online portal ke through track kar sakte hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 16 -->
+      <div class="faq-item">
+        <div class="faq-question">16. Solar system me battery storage option available hai?</div>
+        <div class="faq-answer">
+          <p>Haan, battery backup options se grid outage ke dauran power supply maintain rehti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 17 -->
+      <div class="faq-item">
+        <div class="faq-question">17. Grid-tied system kya hai aur kaise kaam karta hai?</div>
+        <div class="faq-answer">
+          <p>Grid-tied solar system ek aisa solar power system hai jo directly electricity grid se connected hota hai. Ye system battery storage ke bina kaam karta hai aur generate ki gayi extra electricity grid me feed karta hai.<br>  
+
+### Kaise Kaam Karta Hai?  <br>
+1. Solar Panels – Suraj ki roshni se electricity generate karte hain (DC power).<br>  
+2. Inverter – DC power ko AC power me convert karta hai, jo ghar ya business ke liye usable hoti hai.<br>  
+3. Electricity Usage – Pehle solar energy use hoti hai, agar demand zyada ho to grid se power li jati hai.<br>  
+4. Net Metering – Agar extra electricity generate hoti hai to ye grid me feed hoti hai, aur iska credit bill me adjust ho jata hai.<br>  
+
+Ye system low maintenance, cost-effective aur government subsidy ke saath aata hai, jo ise popular banata hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 18 -->
+      <div class="faq-item">
+        <div class="faq-question">18. Off-grid solar system kaise operate hota hai?</div>
+        <div class="faq-answer">
+          <p>Off-grid systems batteries me store ki gayi energy ka use karte hain aur grid se disconnected rehte hain.
+- Solar Panels: Suraj ki roshni se DC power generate karte hain.<br>  
+- Charge Controller: Battery ko safe charging aur overcharge se protect karta hai. <br> 
+- Battery Bank: Generated power ko store karta hai.<br>  
+- Inverter: Stored DC power ko AC power me convert karke appliances ko supply karta hai.<br>
+
+Is tarah, yeh system grid se bilkul independent hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 19 -->
+      <div class="faq-item">
+        <div class="faq-question">19. Solar panels ko kitni der clean rakhna chahiye?</div>
+        <div class="faq-answer">
+          <p>Regular cleaning, har 6 mahine se 1 saal me, performance maintain karne ke liye zaroori hai.
+          Solar panels ko hamesha clean rakhna chahiye taki unki efficiency bani rahe. Aam taur pe:<br>
+
+- Har 6 mahine me cleaning kafi hoti hai.<br>
+- Agar area dusty ya polluted hai, to 3 mahine me bhi cleaning kar sakte hain.<br>
+
+Isse panel par jama dust aur grime door rehta hai aur maximum performance milti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 20 -->
+      <div class="faq-item">
+        <div class="faq-question">20. Solar panel installation ke liye permits chahiye hote hain?</div>
+        <div class="faq-answer">
+          <p>Haan, local authorities se necessary permits aur approvals lena padta hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 21 -->
+      <div class="faq-item">
+        <div class="faq-question">21. Maintenance ke liye service packages kya hain?</div>
+        <div class="faq-answer">
+          <p>Customized service packages, including regular inspection and cleaning, offer kiye jate hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 22 -->
+      <div class="faq-item">
+        <div class="faq-question">22. Solar panels me dust aur pollution ka effect hota hai?</div>
+        <div class="faq-answer">
+          <p>Dust aur pollution se panel efficiency temporarily reduce ho sakti hai, isliye regular cleaning zaroori hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 23 -->
+      <div class="faq-item">
+        <div class="faq-question">23. Shading ka effect solar panel efficiency par kya hota hai?</div>
+        <div class="faq-answer">
+          <p>Shading se energy production significantly kam ho sakti hai, isliye panels ko shade-free area me install karna chahiye.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 24 -->
+      <div class="faq-item">
+        <div class="faq-question">24. Solar panels ka temperature coefficient kya hai?</div>
+        <div class="faq-answer">
+          <p>Temperature coefficient batata hai ki temperature badhne par panel efficiency kitni girti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 25 -->
+      <div class="faq-item">
+        <div class="faq-question">25. Inverter warranty aur lifespan kya hai?</div>
+        <div class="faq-answer">
+          <p>Inverter ki warranty aam taur par 5-10 saal hoti hai aur lifespan 15-20 saal tak chal sakti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 26 -->
+      <div class="faq-item">
+        <div class="faq-question">26. System design customized hai ya standard?</div>
+        <div class="faq-answer">
+          <p>Hum har customer ke requirement ke hisab se customized design provide karte hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 27 -->
+      <div class="faq-item">
+        <div class="faq-question">27. Kya aapke solar panels me monitoring app available hai?</div>
+        <div class="faq-answer">
+          <p>Haan, dedicated mobile app ke through aap real-time performance monitor kar sakte hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 28 -->
+      <div class="faq-item">
+        <div class="faq-question">28. Installation ke baad performance checks kaise hote hain?</div>
+        <div class="faq-answer">
+          <p>Post-installation, system performance ko monitor aur optimize karne ke liye detailed checks kiye jate hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 29 -->
+      <div class="faq-item">
+        <div class="faq-question">29. System expansion future me possible hai?</div>
+        <div class="faq-answer">
+          <p>Haan, modular design ke wajah se future me system expansion asaan hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 30 -->
+      <div class="faq-item">
+        <div class="faq-question">30. Solar panel installation ke liye kitna area chahiye?</div>
+        <div class="faq-answer">
+          <p>Area requirement aapke system size par depend karti hai, lekin general guideline ke liye 100-150 sq.ft per kW consider kiya jata hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 31 -->
+      <div class="faq-item">
+        <div class="faq-question">31. Aapke solar panels ka conversion efficiency kya hai?</div>
+        <div class="faq-answer">
+          <p>Conversion efficiency typically 15-20% ke beech hoti hai, model ke hisab se vary karti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 32 -->
+      <div class="faq-item">
+        <div class="faq-question">32. Installation ke baad documentation provide ki jati hai?</div>
+        <div class="faq-answer">
+          <p>Haan, detailed documentation aur user manuals installation ke saath provide kiye jate hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 33 -->
+      <div class="faq-item">
+        <div class="faq-question">33. Kya aap remote monitoring services offer karte hain?</div>
+        <div class="faq-answer">
+          <p>Haan, remote monitoring se aap apne system ka performance real-time dekh sakte hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 34 -->
+      <div class="faq-item">
+        <div class="faq-question">34. Maintenance schedule kaisa follow kiya jata hai?</div>
+        <div class="faq-answer">
+          <p>Regular scheduled maintenance, quarterly ya bi-annually, system performance optimize karta hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 35 -->
+      <div class="faq-item">
+        <div class="faq-question">35. Solar panels ke recycling options kya hain?</div>
+        <div class="faq-answer">
+          <p>Used panels ko recycle karne ke liye specialized centers available hain jo material recovery me madad karte hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 36 -->
+      <div class="faq-item">
+        <div class="faq-question">36. Kya solar panels ka performance warranty include hai?</div>
+        <div class="faq-answer">
+          <p>Haan, performance warranty system ki efficiency guarantee karti hai, jo aam taur par 25 saal tak hoti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 37 -->
+      <div class="faq-item">
+        <div class="faq-question">37. Kya hamare local area me solar incentives available hain?</div>
+        <div class="faq-answer">
+          <p>Local policies aur government schemes ke hisab se solar incentives available hote hain, jinke liye eligibility criteria check kiya jata hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 38 -->
+      <div class="faq-item">
+        <div class="faq-question">38. Installation ke dauran safety measures kya hote hain?</div>
+        <div class="faq-answer">
+          <p>Strict safety protocols, personal protective equipment aur standard operating procedures follow kiye jate hain.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 39 -->
+      <div class="faq-item">
+        <div class="faq-question">39. Solar panels ke sath energy storage system kitna cost-effective hai?</div>
+        <div class="faq-answer">
+          <p>Battery storage ke sath cost-effectiveness aapke energy needs aur local tariffs par depend karti hai.</p>
+        </div>
+      </div>
+      <!-- FAQ Item 40 -->
+      <div class="faq-item">
+        <div class="faq-question">40. Future me solar technology me upgrades ki possibilities kya hain?</div>
+        <div class="faq-answer">
+          <p>Nayi technologies, higher efficiency panels, aur smart inverters ke sath continuous improvements dekhne ko mil sakte hain.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script>
+    // Advanced FAQ JavaScript functionality
+
+    // Accordion functionality: Allow only one open FAQ at a time.
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        // Agar clicked FAQ already active hai to usko close karo.
+        if (question.classList.contains('active')) {
+          question.classList.remove('active');
+          const answer = question.nextElementSibling;
+          answer.style.maxHeight = null;
+        } else {
+          // Sabhi active FAQ items ko close karo.
+          document.querySelectorAll('.faq-question.active').forEach(activeQ => {
+            activeQ.classList.remove('active');
+            activeQ.nextElementSibling.style.maxHeight = null;
+          });
+          // Clicked FAQ ko open karo.
+          question.classList.add('active');
+          const answer = question.nextElementSibling;
+          answer.style.maxHeight = answer.scrollHeight + "px";
+        }
+      });
+    });
+
+    // Search functionality to filter FAQs based on input text.
+    const searchInput = document.getElementById('faqSearch');
+    searchInput.addEventListener('input', function () {
+      const filterText = this.value.toLowerCase();
+      faqItems.forEach(item => {
+        const questionText = item.querySelector('.faq-question').textContent.toLowerCase();
+        const answerText = item.querySelector('.faq-answer').textContent.toLowerCase();
+        if (questionText.includes(filterText) || answerText.includes(filterText)) {
+          item.style.display = "";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    });
+  </script>
+        <!-- Advance Faq end -->
+
+
+
+    <!-- FAQ Section -->
+  <div class="faq-section">
+    <button class="accordion">What services do you provide?</button>
+    <div class="panel">
+      <p>We provide solar installations, maintenance, help in goverment subsidies and consultancy services.</p>
+    </div>
+
+    <button class="accordion">How can I contact you?</button>
+    <div class="panel">
+      <p>You can contact us via WhatsApp, phone, or email and also through social media.</p>
+    </div>
+
+    <button class="accordion">Do you offer after-sales support?</button>
+    <div class="panel">
+      <p>Yes, we offer complete support for troubleshooting and maintenance.</p>
+    </div>
+  </div>
+  <!-- Floating Chat Button -->
+  <a href="https://wa.me/+919785949156" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<script>
+  // Accordion functionality
+  const accordions = document.querySelectorAll('.accordion');
+  accordions.forEach(acc => {
+    acc.addEventListener('click', () => {
+      const panel = acc.nextElementSibling;
+      acc.classList.toggle('active');
+      if (panel.style.display === 'block') {
+        panel.style.display = 'none';
+      } else {
+        document.querySelectorAll('.panel').forEach(p => p.style.display = 'none');
+        panel.style.display = 'block';
+      }
+    });
+  });
+</script>
+
+                 <!-- End Contact -->
+
+       <!-- contact-area -->
+            <section class="contact-area pt-120 pb-120 p-relative fix" style="background: #f3f7fe;">
+                <div class="container">
+                    <div class="row align-items-center">
+                       
+                        <div class="col-lg-6">
+                            <div class="section-title wow fadeInLeft animated mb-20" data-animation="fadeInDown animated" data-delay=".2s">
+                                <h5 style="font-size:30px;">Location</h5>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3569.2637499069856!2d74.23683267488232!3d26.54379357584832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396bcd00215d12a1%3A0xbc446593750502f8!2sGouri%20Enterprises%20%26%20Solar!5e0!3m2!1sen!2sin!4v1737457047288!5m2!1sen!2sin" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                                 <div class="f-insta">
+                                    <ul>
+                                        <li><a class="popup-image" href="Sprd\119_spd.jpg"><img src="Sprd\119_spd.jpg" alt="img" height="200"></a></li>
+                                        <li><a class="popup-image" href="Sprd\120_spd.jpg"><img src="Sprd\120_spd.jpg" alt="img" height="200"></a></li>
+                                        <li><a class="popup-image" href="Sprd\126_spd.jpg"><img src="Sprd\126_spd.jpg" alt="img" height="200"></a></li>
+                                        <li><a class="popup-image" href="Sprd\122_spd.jpg"><img src="Sprd\122_spd.jpg" alt="img" height="200"></a></li>
+                                        <li><a class="popup-image" href="Sprd\125_spd.jpg"><img src="Sprd\125_spd.jpg" alt="img" height="200"></a></li>
+                                        <li><a class="popup-image" href="Sprd\121_spd.jpg"><img src="Sprd\121_spd.jpg" alt="img" height="200"></a></li>
+                                    </ul>
+                                </div>                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact-area-end -->
+        <!-- contact-area -->
+            <section class="contact-area pt-120 pb-120 p-relative fix" style="background: #f3f7fe;">
+                <div class="container">
+                    <div class="row align-items-center">
+                       
+                        <div class="col-lg-6">
+                            <div class="section-title wow fadeInLeft animated mb-20" data-animation="fadeInDown animated" data-delay=".2s">
+                                <h5 style="font-size:30px;">Contact US</h5>
+                                <h2>Get Any Help We Always Here</h2>                                
+                            </div>
+                            <p>"Need assistance with solar energy solutions? Our team is dedicated to providing the best services, whether it's for solar panel installations, maintenance, or energy consulting. We are here to guide you every step of the way towards a sustainable and energy-efficient future."</p>      
+                            <div class="row mt-30">
+                                <div class="col-lg-6"><img src="images/76_gal.jpg" height="200" alt="img"></div>
+                                <div class="col-lg-6"><img src="images/104_gal.jpg" height="200" alt="img"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="contact-bg02">
+                            <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                                <h2>
+                                    Request A Quote
+                                </h2>                              
+                            </div>                                
+                        <form action="mail.php" method="post" class="contact-form mt-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                            <div class="row">
+                            <div class="col-lg-6">
+                                <div class="contact-field p-relative c-name mb-20">                                    
+                                    <input type="text" id="firstn" name="firstn" placeholder="First Name" required>
+                                </div>                               
+                            </div>
+                            
+                            <div class="col-lg-6">                               
+                                <div class="contact-field p-relative c-subject mb-20">                                   
+                                    <input type="text" id="email" name="email" placeholder="Email" required>
+                                </div>
+                            </div>                                      
+                            <div class="col-lg-6">                               
+                                <div class="contact-field p-relative c-subject mb-20">                                   
+                                    <input type="text" id="phone" name="phone" placeholder="Phone No." required>
+                                </div>
+                            </div>  
+                           <div class="col-lg-6">                               
+                                <div class="contact-field p-relative c-subject mb-20">                                   
+                                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                                </div>
+                            </div>  
+                            <div class="col-lg-12">
+                                <div class="contact-field p-relative c-message mb-30">                                  
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
+                                </div>
+                                <div class="slider-btn">                                          
+                                    <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s"><span>Submit Now</span></button>               
+                                </div>                             
+                            </div>
+                            </div>
+                        
+                    </form>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact-area-end -->   
+
+
+
+        <!-- footer -->
+        <footer class="footer-bg footer-p" style="background-color: #1e2126;">
+            <div class="footer-top  pt-120 pb-90">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        
+                        <div class="col-xl-4 col-lg-4 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="">
+                                    <h2><img src="images\logo-logo.jpg" height="70px" width="70px" alt="logo"  style="border-radius: 50%;"></h2>
+                                </div>
+                                <div class="f-contact">
+                                     <p>At GOURI ENTERPRISES & SOLAR, we are dedicated to providing sustainable and efficient solar energy<br> solutions to help you harness the power of the sun.<br> From installation and maintenance to expert <br>consultations, we deliver top-notch services tailored<br> to your needs.Contact us today for a free consultation<br> and take the first step towards a greener, energy-efficient future.</p>
+                                </div>
+                                <div class="col-lg-7">
+                                     <div class="footer-social">                                    
+                                            <a href="https://www.facebook.com/profile.php?id=100090305406857&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.instagram.com/gouri_enterprises_solar_092?igsh=MXhwc3Rya2M1cm1hMA==&utm_source=ig_contact_invite"><i class="fab fa-instagram"></i></a>
+                                            <a href=""><i class="fab fa-linkedin"></i></a>
+
+                                            <a href="https://youtube.com/@gouri-enterprises-solar?si=UPV0eE8SFxdSttJI" title="youtube"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                                        </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1400">
+                                <div class="f-widget-title">
+                                    <h2>Our Links</h2>
+                                </div>
+                                <div class="footer-link">
+                                    <ul>                                        
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html"> About</a></li>
+                                        <li><a href="single-service.html"> Services </a></li>
+                                        <li><a href="gallary.html"> Gallary</a></li>
+                                        <li><a href="product.html"> Products</a></li>
+                                        <li><a href="project.html"> Projects</a></li>
+                                        <li><a href="contact.html"> Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-xl-3 col-lg-3 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1600">
+                                <div class="f-widget-title">
+                                  <h2>Contact Us</h2>
+                                </div>
+                                <div class="f-contact">
+                                    <ul>
+                                    <li>
+                                        <i class="icon fal fa-phone"></i>
+                                        <span>7976-552-285<br>+91-9460-952-764</span>
+                                    </li>
+                                   <li><i class="icon fal fa-envelope"></i>
+                                        <span>
+                                            <a href="mailto:msgouri417@gmail.com">msgouri417@gmail.com</a>
+                                       <br>
+                                       <a href="mailto:msgouri417@gmail.com">msgouri417@gmail.com</a>
+                                       </span>
+                                    </li>
+                                    <li>
+                                        <i class="icon fal fa-map-marker-check"></i>
+                                        <span>Raika Bagh, Opposite Senior School, Padu Kalan Road Rian Badi, District - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nagaur (Raj.)</span>
+                                    </li>
+                                    
+                                </ul>
+                                    
+                                    </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-lg-3 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1800">
+                                <div class="f-widget-title">
+                                    <h2>Latest Post</h2>
+                                </div>
+                                <div class="f-insta">
+                                    <ul>
+                                        <li><a class="popup-image" href="images\69_gal.jpg"><img src="images\69_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\71_gal.jpg"><img src="images\71_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\57_gal.jpg"><img src="images\57_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\29_gal.jpg"><img src="images\29_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\43_gal.jpg"><img src="images\43_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\124_gal.jpg"><img src="images\124_gal.jpg" alt="img" height="100"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>  
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-wrap">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-9">
+                          <div class="copy-text text-left">
+                                 Copyright &copy; GOURI ENTERPRISES & SOLAR 2025. All rights reserved.       
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                          <div class="copy-text text-left">
+                                 Designed and Developed by Moinudeen &nbsp; <a href="https://moinunstp.github.io/moinportfolio/"><i style="color:white;" class="fa-duotone fa-light fa-user"></i></a>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-end -->
+
+        <!-- JS here -->
+        <script src="js/vendor-modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor-jquery-3.6.0.min.js"></script>
+        <script src="js/1224-js-popper.min.js"></script>
+        <script src="js/1269-js-bootstrap.min.js"></script>
+        <script src="js/6525-js-slick.min.js"></script>
+        <script src="js/133-js-ajax-form.js"></script>
+        <script src="js/4230-js-paroller.js"></script>
+        <script src="js/278-js-wow.min.js"></script>
+        <script src="js/9219-js-js_isotope.pkgd.min.js"></script>
+        <script src="js/5604-js-imagesloaded.min.js"></script>
+        <script src="js/4140-js-parallax.min.js"></script>
+        <script src="js/2253-js-jquery.waypoints.min.js"></script>
+        <script src="js/4409-js-jquery.counterup.min.js"></script>
+        <script src="js/5198-js-jquery.scrollUp.min.js"></script>
+        <script src="js/9477-js-jquery.meanmenu.min.js"></script>
+        <script src="js/3837-js-parallax-scroll.js"></script>
+        <script src="js/1550-js-swiper.min.js"></script>        
+        <script src="js/8522-js-jquery.magnific-popup.min.js"></script>
+        <script src="js/7849-js-element-in-view.js"></script>
+        <script src="js/6967-js-main.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+ 

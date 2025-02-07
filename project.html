@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Gouri Enterprises & Solar Energy Website </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="favicons\fevi.jpg">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="css/css-bootstrap.min.css">
+        <link rel="stylesheet" href="css/css-animate.min.css">
+        <link rel="stylesheet" href="css/css-magnific-popup.css">
+        <link rel="stylesheet" href="css/css-all.min.css">
+        <link rel="stylesheet" href="css/css-dripicons.css">
+        <link rel="stylesheet" href="css/css-slick.css">
+        <link rel="stylesheet" href="css/css-meanmenu.css">        
+        <link rel="stylesheet" href="css/css-swiper.min.css">
+        <link rel="stylesheet" href="css/css-default.css">
+        <link rel="stylesheet" href="css/css-style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/css-responsive.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+          <style>
+            .contain {
+              max-width: 100%;
+              
+              padding: 20px;
+            }
+            .hl {
+              text-align: center;
+              color: #333;
+              margin-bottom: 20px;
+            }
+            .gride {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+            .gride-item {
+              position: relative;
+              overflow: hidden;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              cursor: pointer;
+              margin: 15px;
+            }
+            .gride-item img {
+              width: 100%;
+              height: 300px;
+              display: block;
+              transition: transform 0.3s ease;
+            }
+            .gride-item:hover img {
+              transform: scale(1.1);
+            }
+            .gride-item h3 {
+              position: absolute;
+              bottom: 10px;
+              left: 10px;
+              color: #fff;
+              background: rgba(0, 0, 0, 0.6);
+              padding: 5px 10px;
+              border-radius: 5px;
+              font-size: 16px;
+            }
+
+            .containr {
+  position: relative;
+  
+  // margin: 0 auto;
+  background-color: var(--navigation-color);
+}
+
+.holder::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide the images by default */
+.slides {
+  display: none;
+}
+
+.slides img {
+  width: 100%;
+  height: 550px;
+  border-radius: 20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 600px) {
+  .prevContainer,
+  .nextContainer {
+    display: none;
+    visibility: hidden;
+  }
+
+}
+
+.prevContainer,
+.nextContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50%;
+  transform: translate(0, calc(-50% - 54px));
+  height: 54px;
+  width: 54px;
+  cursor: pointer;
+}
+
+.prevContainer {
+  margin-left: 26px;
+  left: 0;
+  border-radius: 30px 0 0 30px;
+}
+
+.prev {
+  position: relative;
+  top: 20px;
+  transform: translate(0, -50%);
+  height: 34px;
+  width: 32px;
+  float: left;
+  margin-left: 12px
+}
+
+.prev svg,
+.next svg {
+  fill: white;
+}
+
+.nextContainer {
+  margin-right: 26px;
+  right: 0;
+  border-radius: 0 30px 30px 0;
+}
+
+.prev {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 34px;
+  width: 32px;
+  float: right;
+  margin-right: 12px;
+}
+
+.next {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 34px;
+  width: 32px;
+  float: right;
+  margin-right: 12px;
+}
+
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.20%;
+}
+
+/* Add a transparency effect for thumbnail images */
+.slide-thumbnail {
+  width: 100%;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.active,
+.slide-thumbnail:hover {
+  opacity: 1;
+  border: 5px solid #1aa3ff;
+  padding: 3px;
+}
+        </style>
+    </head>
+    <body style="overflow-x: hidden;">
+         <!-- header -->
+        <header class="header-area header-three">  
+           <div class="header-top second-header d-none d-md-block">
+                <div class="container">
+                    <div class="row align-items-center"> 
+                         <div class="col-lg-8 col-md-8 d-none d-md-block">
+                             <div class="header-cta">
+                                <ul>      
+                                     <li><a href="#index.html">Renewable energy is set to contribute 25% to the world's total power generation.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 text-right d-none d-md-block">
+                            <div class="header-social">
+                                <span>
+                                    <a href="https://www.facebook.com/profile.php?id=100090305406857&mibextid=ZbWKwL" title="Facebook"><i class="fa-brands fa-square-facebook fa-lg" id="fc"></i></a>
+
+                                    <a href="https://www.instagram.com/gouri_enterprises_solar_092?igsh=MXhwc3Rya2M1cm1hMA==&utm_source=ig_contact_invite" title="instagram"><i class="fa-brands fa-square-instagram fa-lg" id="ic"></i></a>  
+
+                                    <a href="" title="LinkedIn"><i class="fa-brands fa-linkedin fa-lg" id="lc"></i></a>
+
+                                    <a href="https://youtube.com/@gouri-enterprises-solar?si=UPV0eE8SFxdSttJI" title="youtube"><i class="fa-brands fa-youtube fa-lg" id="yc"></i></a>
+                                   </span>                    
+                                   <!--  /social media icon redux -->                               
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>      
+            <div class="header-mid d-none d-md-block pt-25 pb-25 sm">
+                <div class="container">
+                    <div class="row align-items-center">                                              
+                        <div class="col-lg-2 col-md-12 d-none d-md-block">
+                            <div class="logo">
+                                <a href="index.html"><img src="images\logo-logo.jpg" height="70px" width="70px" alt="logo"  style="border-radius: 50%;"></a>
+                            </div>
+                        </div>
+                         <div class="col-lg-10 col-md-10 text-right d-none d-lg-block">
+                             <div class="header-cta">
+                                <ul>   
+                                     <li>
+                                       <div class="call-box">
+                                            <div class="icon">
+                                               <i class="fal fa-phone-alt"></i>
+                                            </div>
+                                           <div class="text">
+                                               <span style="color:white;">Call Now:</span>
+                                                <strong style="color:white;">+91 946 095-2764</strong>                                               
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                       <div class="call-box">
+                                            <div class="icon">
+                                                <i class="fal fa-envelope"></i>
+                                            </div>
+                                           <div class="text">
+                                                <span style="color:white;">Email Now:</span>
+                                                <strong style="color:white;">msgouri417@gmail.com</strong>
+                                               
+                                            </div>
+                                        </div>
+                                    </li>                                   
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+              <div id="header-sticky" class="menu-area sm">
+                <div class="container">
+                    <div class="second-menu">
+                        <div class="row align-items-center">
+                        <div class="col-lg-2 col-md-12  d-lg-none d-x-none">
+                            <div class="">
+                                <a href="index.html"><img src="images/logo-logo.jpg" height="60px" width="60px" alt="logo"></a>
+                            </div>
+                        </div>
+                           <div class="col-xl-11 col-lg-10">
+                              
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="has-sub">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li><a href="about.html">About Us</a></li>
+                                             <li class="has-sub"> 
+                                              <a href="single-service.html">Services</a>
+                                            </li>
+                                            <li class="has-sub"><a href="#">Pages</a>
+                                                <ul>
+                                                    <li><a href="gallary.html">Gallary</a></li>
+                                                    <li><a href="product.html">Products</a></li>
+                                                    <li><a href="project.html">Projects</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact Us</a></li>                                           
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>   
+                             <div class="col-xl-1 col-lg-2 text-right d-none d-lg-block">
+                                 
+                                <a href="#" class="menu-tigger"><i class="fal fa-search"></i></a>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile-menu"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header-end -->
+         <!-- offcanvas-area -->
+                <div class="offcanvas-menu">
+                <span class="menu-close"><i class="fas fa-times"></i></span>
+              <form role="search" method="get" id="searchform" class="searchform" action="#index.html">
+                                <input type="text" name="s" id="search" placeholder="Search">
+                                <button><i class="fa fa-search"></i></button>
+                            </form>
+
+                    
+                    <div id="cssmenu3" class="menu-one-page-menu-container">
+                        <ul class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Home</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">About Us</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="single-service.html">Services</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="gallary.html">Gallary</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="product.html">Products</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="project.html">Projects</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>  
+                    
+                    <div id="cssmenu2" class="menu-one-page-menu-container">
+                        <ul id="menu-one-page-menu-12" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span>+91 946 095-2764</span></a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#howitwork"><span>msgouri@gmail.com</span></a></li>
+                        </ul>
+                    </div>                
+            </div>
+            <div class="offcanvas-overly"></div>
+            <!-- offcanvas-end -->
+            
+            <!-- Slider Area Start -->
+            <div  class="section-title center-align mb-50 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+            <div class="containr">
+  <!-- main images -->
+  <div class="holder">
+    <div class="slides">
+      <img src="images/69_gal.jpg" alt="" />
+    </div>
+
+    <div class="slides">
+      <img src="images/57_gal.jpg">
+    </div>
+
+    <div class="slides">
+      <img src="images/65_gal.jpg">
+    </div>
+      
+    <div class="slides">
+      <img src="images/124_gal.jpg">
+    </div>
+
+    <div class="slides">
+      <img src="images/43_gal.jpg">
+    </div>
+      
+    <div class="slides">
+      <img src="images/72_gal.jpg">
+    </div>
+  </div>
+
+  <div class="prevContainer"><a class="prev" onclick="plusSlides(-1)">
+    <svg viewBox="0 0 24 24">
+    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+</svg>
+    </a></div>
+  <div class="nextContainer"><a class="next" onclick="plusSlides(1)">
+    <svg viewBox="0 0 24 24">
+  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+</svg>
+    </a></div>
+
+  <!-- thumnails in a row -->
+  <div class="row" style="margin-left:15px; margin-top: 2px;">
+    <div class="column">
+      <img class="slide-thumbnail" src="images/69_gal.jpg" height="80" width="80" style="border-radius:10px;" onclick="currentSlide(1)" alt="Caption One">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="images/57_gal.jpg" height="80" width="80" style="border-radius:10px;" onclick="currentSlide(2)" alt="Caption Two">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="images/65_gal.jpg" height="80" width="80" style="border-radius:10px;" onclick="currentSlide(3)" alt="Caption Three">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="images/124_gal.jpg" height="80" width="80" style="border-radius:10px;" onclick="currentSlide(4)" alt="Caption Four">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="images/43_gal.jpg" height="80" width="80" style="border-radius:10px;" onclick="currentSlide(5)" alt="Caption Five">
+    </div>    
+    <div class="column">
+      <img class="slide-thumbnail" src="images/72_gal.jpg" height="80" width="80" style="border-radius:10px;" onclick="currentSlide(6)" alt="Caption Six">
+    </div>
+  </div>
+</div>
+</div>
+            <script type="text/javascript">
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  var dots = document.getElementsByClassName("slide-thumbnail");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  console.log(slideIndex);
+
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+      // slides[i].style.display = "inline";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  // slides[slideIndex-1].style.display = "inline";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+            <!-- Slider Area End -->
+
+            <!-- Project Area -->
+            <section class="team-area fix p-relative mt-150">  
+                <div class="container">  
+                    <div class="row">   
+                        <div class="col-lg-12 p-relative">
+                           <div class="section-title center-align mb-50 text-center wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                               <h5>Projects</h5>
+                                <h2>
+                                   Our Projects
+                                </h2>
+                             
+                            </div>
+                        </div>                        
+                         
+                    </div>
+                </div>
+                </section>
+                <div class="contain about-content s-about-content wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                    <h1 class="hl"></h1>
+                    <div class="gride">
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/0wQv9B1dZfU?si=gfxYodueoVjU_J0P')">
+                        <img src="images\133_gal.jpg" alt="Project 1">
+                        <h3>Site: Bijathal</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/Blp0SkjfKdY?si=kRoc4NWrRDHhOQD2')">
+                        <img src="images\134_gal.jpg" alt="Project 2">
+                        <h3>Site: Bijathal</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/yINj5cnpCec?si=gDkQHsE1k9_AtKA_')">
+                        <img src="images\108_gal.jpg" alt="Project 3">
+                        <h3>Site: Basni Jagga</h3>
+                      </div>
+                      <!-- Add more projects here -->
+                    </div>
+                    <div class="gride">
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/eb6-P05MKIo?si=TE96tXiIlY5bJm1O')">
+                        <img src="images\135_gal.jpg" alt="Project 1">
+                        <h3>Site: Jhintiya</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/JI-dwgU_BxE?si=5rC3es8NzUqITCIH')">
+                        <img src="images\136_gal.jpg" alt="Project 2">
+                        <h3>Site: Bijathal</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/A-aQVYyPJAw?si=0hSQIxPv7gxG4xqp')">
+                        <img src="images\138_gal.jpg" alt="Project 1">
+                        <h3>Site: Bijathal</h3>
+                      </div>
+                    </div>
+
+                    <div class="gride">
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/q1-Kb2uRDk4?si=3IOlqwbn6tdunoZu')">
+                        <img src="images\137_gal.jpg" alt="Project 3">
+                        <h3>Site: Jhintiya</h3>
+                      </div>    
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/gFVD27ZUsLE?si=C7TUXxdAoR6gwKJX')">
+                        <img src="images\140_gal.jpg" alt="Project 2">
+                        <h3>Site: Kekindada</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/G_Elu-lJ0sw?si=Zf5Y2mJTQvAkqVhW')">
+                        <img src="images\141_gal.jpg" alt="Project 3">
+                        <h3>Site: Jasanagar</h3>
+                      </div>
+                      <!-- Add more projects here -->
+                    </div>
+                    <div class="gride">
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/J6z9ghXNyH4?si=tffFKMdp5_KsgRgr')">
+                        <img src="images\142_gal.jpg" alt="Project 3">
+                        <h3>Site: Jhintiya</h3>
+                      </div>    
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/uxjWrC1TA74?si=sVbUOh2md8IYY9A3')">
+                        <img src="images\143_gal.jpg" alt="Project 2">
+                        <h3>Site: Bhaani Gaav</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/9yLJcEkXcWI?si=dZrUL7Aw8IEhbOXa')">
+                        <img src="images\147_gal.jpg" alt="Project 3">
+                        <h3>Site: Sathana</h3>
+                      </div>
+                      <!-- Add more projects here -->
+                    </div>
+                    <div class="gride">
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/wthWLi6mvRs?si=fx5XqBI-ly33WTvQ')">
+                        <img src="images\145_gal.jpg" alt="Project 3">
+                        <h3>Site: Kod</h3>
+                      </div>    
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/OFfHUHw6ztk?si=mGNcrJHc5EOT3vWm')">
+                        <img src="images\146_gal.jpg" alt="Project 2">
+                        <h3>Site: Keero Ki Dhaani</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/WnU1NSOoHX0?si=08ossh2eQVOKfQ4u')">
+                        <img src="images\148_gal.jpg" alt="Project 3">
+                        <h3>Site: Keero Ki Dhaani</h3>
+                      </div>
+                      <!-- Add more projects here -->
+                    </div>
+                    <div class="gride">
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/ERhJd_JHKEE?si=ruG4i0EVRWNOVY70')">
+                        <img src="images\149_gal.jpg" alt="Project 3">
+                        <h3>Site: Medaas</h3>
+                      </div>    
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/RJzWzJxubh4?si=ESWiR06rcZbRc3y4')">
+                        <img src="images\150_gal.jpg" alt="Project 2">
+                        <h3>Site: Harsor</h3>
+                      </div>
+                      <div class="gride-item" onclick="openVideo('https://youtu.be/EtnRvPA28ZI?si=1UCg4SbbLlJTor2C')">
+                        <img src="images\151_gal.jpg" alt="Project 3">
+                        <h3>Site: Barev</h3>
+                      </div>
+                      <!-- Add more projects here -->
+                    </div>
+                  </div> 
+                  </div>
+                  
+                  
+                  
+                  <script>
+                  
+                    function openVideo(url) {
+                      window.open(url, '_blank');
+                    }
+                  </script>
+            <!-- Project Area End -->        
+        
+        <!-- footer -->
+        <footer class="footer-bg footer-p" style="background-color: #1e2126;">
+            <div class="footer-top  pt-120 pb-90">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        
+                        <div class="col-xl-4 col-lg-4 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="">
+                                    <h2><img src="images\logo-logo.jpg" height="70px" width="70px" alt="logo"  style="border-radius: 50%;"></h2>
+                                </div>
+                                <div class="f-contact">
+                                     <p>At GOURI ENTERPRISES & SOLAR, we are dedicated to providing sustainable and efficient solar energy<br> solutions to help you harness the power of the sun.<br> From installation and maintenance to expert <br>consultations, we deliver top-notch services tailored<br> to your needs.Contact us today for a free consultation<br> and take the first step towards a greener, energy-efficient future.</p>
+                                </div>
+                                <div class="col-lg-7">
+                                     <div class="footer-social">                                    
+                                            <a href="https://www.facebook.com/profile.php?id=100090305406857&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.instagram.com/gouri_enterprises_solar_092?igsh=MXhwc3Rya2M1cm1hMA==&utm_source=ig_contact_invite"><i class="fab fa-instagram"></i></a>
+                                            <a href=""><i class="fab fa-linkedin"></i></a>
+
+                                            <a href="https://youtube.com/@gouri-enterprises-solar?si=UPV0eE8SFxdSttJI" title="youtube"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                                        </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1400">
+                                <div class="f-widget-title">
+                                    <h2>Our Links</h2>
+                                </div>
+                                <div class="footer-link">
+                                    <ul>                                        
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html"> About</a></li>
+                                        <li><a href="single-service.html"> Services </a></li>
+                                        <li><a href="gallary.html"> Gallary</a></li>
+                                        <li><a href="product.html"> Products</a></li>
+                                        <li><a href="project.html"> Projects</a></li>
+                                        <li><a href="contact.html"> Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-xl-3 col-lg-3 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1600">
+                                <div class="f-widget-title">
+                                  <h2>Contact Us</h2>
+                                </div>
+                                <div class="f-contact">
+                                    <ul>
+                                    <li>
+                                        <i class="icon fal fa-phone"></i>
+                                        <span>7976-552-285<br>+91-9460-952-764</span>
+                                    </li>
+                                   <li><i class="icon fal fa-envelope"></i>
+                                        <span>
+                                            <a href="mailto:msgouri417@gmail.com">msgouri417@gmail.com</a>
+                                       <br>
+                                       <a href="mailto:msgouri417@gmail.com">msgouri417@gmail.com</a>
+                                       </span>
+                                    </li>
+                                    <li>
+                                        <i class="icon fal fa-map-marker-check"></i>
+                                        <span>Raika Bagh, Opposite Senior School, Padu Kalan Road Rian Badi, District - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nagaur (Raj.)</span>
+                                    </li>
+                                    
+                                </ul>
+                                    
+                                    </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-lg-3 col-sm-6">
+                            <div class="footer-widget mb-30" data-aos="fade-up" data-aos-duration="1800">
+                                <div class="f-widget-title">
+                                    <h2>Latest Post</h2>
+                                </div>
+                                <div class="f-insta">
+                                    <ul>
+                                        <li><a class="popup-image" href="images\69_gal.jpg"><img src="images\69_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\71_gal.jpg"><img src="images\71_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\57_gal.jpg"><img src="images\57_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\29_gal.jpg"><img src="images\29_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\43_gal.jpg"><img src="images\43_gal.jpg" alt="img" height="100"></a></li>
+                                        <li><a class="popup-image" href="images\124_gal.jpg"><img src="images\124_gal.jpg" alt="img" height="100"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>  
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-wrap">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-9">
+                          <div class="copy-text text-left">
+                                 Copyright &copy; GOURI ENTERPRISES & SOLAR 2025. All rights reserved.       
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                          <div class="copy-text text-left">
+                                 Designed and Developed by Moinudeen &nbsp; <a href="https://moinunstp.github.io/moinportfolio/"><i style="color:white;" class="fa-duotone fa-light fa-user"></i></a>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-end -->
+
+        <!-- JS here -->
+        <script src="js/vendor-modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor-jquery-3.6.0.min.js"></script>
+        <script src="js/1224-js-popper.min.js"></script>
+        <script src="js/1269-js-bootstrap.min.js"></script>
+        <script src="js/6525-js-slick.min.js"></script>
+        <script src="js/133-js-ajax-form.js"></script>
+        <script src="js/4230-js-paroller.js"></script>
+        <script src="js/278-js-wow.min.js"></script>
+        <script src="js/9219-js-js_isotope.pkgd.min.js"></script>
+        <script src="js/5604-js-imagesloaded.min.js"></script>
+        <script src="js/4140-js-parallax.min.js"></script>
+        <script src="js/2253-js-jquery.waypoints.min.js"></script>
+        <script src="js/4409-js-jquery.counterup.min.js"></script>
+        <script src="js/5198-js-jquery.scrollUp.min.js"></script>
+        <script src="js/9477-js-jquery.meanmenu.min.js"></script>
+        <script src="js/3837-js-parallax-scroll.js"></script>
+        <script src="js/1550-js-swiper.min.js"></script>        
+        <script src="js/8522-js-jquery.magnific-popup.min.js"></script>
+        <script src="js/7849-js-element-in-view.js"></script>
+        <script src="js/6967-js-main.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+ 
